@@ -3,7 +3,7 @@ from functools import lru_cache
 
 class Settings(BaseSettings):
     # GitHub API
-    github_token: str = ""          # Personal access token (optional, increases rate limits)
+    github_token: str = ""         
 
     # LLM
     openai_api_key: str = ""

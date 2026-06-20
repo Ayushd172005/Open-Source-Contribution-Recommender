@@ -5,8 +5,6 @@ from app.core.config import get_settings
 
 router = APIRouter()
 settings = get_settings()
-
-
 @router.post("/search")
 async def search_issues(req: IssueSearchRequest):
     """Search for beginner-friendly GitHub issues."""
